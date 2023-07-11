@@ -21,7 +21,7 @@ public void union(int a, int b){
  if(elements[a] == elements[b])
 	return;
 // int val_B = elements[b];
- int val_B = b;
+ int val_B = elements[b];
  int val_A = elements[a];
  for(int i=0; i<size; i++)
     if(elements[i] == val_A)
